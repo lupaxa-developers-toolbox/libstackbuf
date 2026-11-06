@@ -3,7 +3,7 @@
 
 #include <stddef.h>
 
-#define STACKBUF_VERSION_STRING "0.1.0-rc1"
+#define STACKBUF_VERSION_STRING "0.1.0"
 
 /* STACKBUF_OK is success. STACKBUF_NOMEM means allocation failed and
    stackbuf_create sets *buf to NULL. STACKBUF_INVAL means a missing buffer,
